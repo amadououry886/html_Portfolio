@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;  /* Light gray background */
+    color: #333;  /* Dark gray text */
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Image Styling */
+img {
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 10px;
+}
+
+/* Section Styling */
+section {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+/* Headings */
+h2 {
+    color: #d9534f; /* Red */
+    border-bottom: 2px solid #d9534f;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Highlight Skills */
+li strong {
+    color: #5bc0de; /* Light blue */
+}
+
+/* Links */
+a {
+    color: #28a745; /* Green */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    background-color: #343a40; /* Dark gray */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+nav h2 {
+    color: white;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #f8f9fa; /* Light gray */
+    font-size: 18px;
+}
